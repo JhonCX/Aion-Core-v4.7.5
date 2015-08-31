@@ -99,7 +99,7 @@ public class TuningAction extends AbstractItemAction {
                 targetItem.setRandomStats(null);
                 targetItem.setBonusNumber(0);
                 targetItem.setRandomCount(++rndCount);
-                targetItem.setOptionalSocket(0);
+                targetItem.setOptionalSocket(-1);
                 targetItem.setRndBonus();
                 targetItem.setPersistentState(PersistentState.UPDATE_REQUIRED);
                 PacketSendUtility.sendPacket(player, new SM_INVENTORY_UPDATE_ITEM(player, targetItem));

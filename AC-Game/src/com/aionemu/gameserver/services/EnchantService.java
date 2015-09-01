@@ -668,7 +668,6 @@ public class EnchantService {
         } else {
             PacketSendUtility.sendPacket(player,
                     SM_SYSTEM_MESSAGE.STR_GIVE_ITEM_OPTION_FAILED(new DescriptionId(targetItem.getNameId())));
-            player.getInventory().decreaseByObjectId(parentItem.getObjectId(), 1);
         }
 
         ItemPacketService.updateItemAfterInfoChange(player, targetItem);

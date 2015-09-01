@@ -136,7 +136,6 @@ public class ArenaMasterService{
         player.setWinCount(0);
         setRound(player, 0);
         player.setInDuelArena(false);
-        TeleportService2.moveToBindLocation(player, false);
     }
 
     public void onDeath(final Player attacker, final Creature attacked){

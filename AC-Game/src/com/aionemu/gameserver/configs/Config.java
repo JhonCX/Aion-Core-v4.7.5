@@ -82,7 +82,7 @@ public class Config {
             // Main
             Util.printSection("MAIN");
             String main = "./config/main";
-
+			
             Properties[] mainProps = PropertiesUtils.loadAllFromDirectory(main);
             PropertiesUtils.overrideProperties(mainProps, myProps);
 
@@ -115,6 +115,9 @@ public class Config {
 
             ConfigurableProcessor.process(DropConfig.class, mainProps);
             log.info("Loading: " + main + "/drop.properties");
+			
+            ConfigurableProcessor.process(DualBoxConfig.class, mainProps);
+            log.info("Loading: " + main + "/DualBoxConfig.properties");
 
             ConfigurableProcessor.process(EnchantsConfig.class, mainProps);
             log.info("Loading: " + main + "/enchants.properties");
@@ -251,6 +254,9 @@ public class Config {
 
             Properties[] mainProps = PropertiesUtils.loadAllFromDirectory(main);
             PropertiesUtils.overrideProperties(mainProps, myProps);
+
+            ConfigurableProcessor.process(DualBoxConfig.class, mainProps);
+            log.info("Reload: " + main + "/DualBox.properties");		
 
             ConfigurableProcessor.process(BrokerConfig.class, mainProps);
             log.info("Reload: " + main + "/broker.properties");				

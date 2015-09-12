@@ -62,10 +62,7 @@ public class AuthorizeAction extends AbstractItemAction {
         if (targetItem.getItemTemplate().getAuthorize() == 0) {
             return false;
         }
-        if (targetItem.getAuthorize() >= targetItem.getItemTemplate().getAuthorize()) {
-            return false;
-        }
-        return true;
+        return targetItem.getAuthorize() < targetItem.getItemTemplate().getAuthorize();
     }
 
     @Override
@@ -85,13 +82,30 @@ public class AuthorizeAction extends AbstractItemAction {
         player.getObserveController().attach(observer);
         player.getController().addTask(TaskId.ITEM_USE, ThreadPoolManager.getInstance().schedule(new Runnable() {
             @Override
-            public void run() {
+            public void run() 
+			{
                 if (player.getInventory().decreaseByItemId(parentItem.getItemId(), 1L)) {
                     if (!AuthorizeAction.this.isSuccess()) {
                         PacketSendUtility.broadcastPacketAndReceive(player, new SM_ITEM_USAGE_ANIMATION(player.getObjectId(), player.getObjectId(), parentItem.getObjectId(), parentItem.getItemId(), 0, 2, 0));
                         targetItem.setAuthorize(0);
-                        PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_MSG_ITEM_AUTHORIZE_FAILED(targetItem.getNameId()));
-                    } else {
+                        if (targetItem.getItemTemplate().isPlume()) {
+                        if (targetItem.isEquipped())
+						{
+                         player.getEquipment().unEquipItem(targetItem.getObjectId().intValue(), player.getEquipment().getEquipedPlume().getEquipmentSlot());
+                         player.getInventory().decreaseByObjectId(targetItem.getObjectId().intValue(), targetItem.getItemCount());
+                        }
+						else
+                        {
+                         player.getInventory().decreaseByObjectId(targetItem.getObjectId().intValue(), targetItem.getItemCount());
+                        }
+                    }
+					    if (targetItem.getItemTemplate().isPlume()) {
+                        PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_STR_MSG_ITEM_AUTHORIZE_FAILED_TSHIRT(targetItem.getNameId()));
+                       } else {
+                       PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_MSG_ITEM_AUTHORIZE_FAILED(targetItem.getNameId()));
+                       }
+					}
+					else {
                         PacketSendUtility.broadcastPacketAndReceive(player, new SM_ITEM_USAGE_ANIMATION(player.getObjectId(), player.getObjectId(), parentItem.getObjectId(), parentItem.getItemId(), 0, 1, 0));
                         targetItem.setAuthorize(targetItem.getAuthorize() + 1);
                         PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_MSG_ITEM_AUTHORIZE_SUCCEEDED(targetItem.getNameId(), targetItem.getAuthorize()));

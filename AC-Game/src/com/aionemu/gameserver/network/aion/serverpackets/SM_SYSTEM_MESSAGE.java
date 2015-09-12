@@ -21618,6 +21618,10 @@ public final class SM_SYSTEM_MESSAGE extends AionServerPacket {
         return new SM_SYSTEM_MESSAGE(1402149, new Object[]{new DescriptionId(nameId)});
     }
     
+	public static SM_SYSTEM_MESSAGE STR_STR_MSG_ITEM_AUTHORIZE_FAILED_TSHIRT(int nameId)
+    {
+    return new SM_SYSTEM_MESSAGE(1402447, new Object[] { new DescriptionId(nameId) });
+    }
     /**
      * Purification System
      */

@@ -77,6 +77,7 @@ public class SM_FRIEND_LIST extends AionServerPacket {
                 writeD(0);
                 writeC(0);
             }
+			    writeS(friend.getNote());
         }
     }
 }

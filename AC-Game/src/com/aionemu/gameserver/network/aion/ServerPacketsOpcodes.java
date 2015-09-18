@@ -77,7 +77,7 @@ public class ServerPacketsOpcodes {
         addPacketOpcode(SM_DELETE_ITEM.class, 0x1C, idSet);
         addPacketOpcode(SM_INVENTORY_UPDATE_ITEM.class, 0x1D, idSet);
         addPacketOpcode(SM_UI_SETTINGS.class, 0x1E, idSet);
-        addPacketOpcode(SM_PLAYER_STANCE.class, 0x2F, idSet);
+        addPacketOpcode(SM_PLAYER_STANCE.class, 0x1F, idSet);
         addPacketOpcode(SM_PLAYER_INFO.class, 0x20, idSet);
         addPacketOpcode(SM_CASTSPELL.class, 0x21, idSet);
         addPacketOpcode(SM_GATHER_STATUS.class, 0x22, idSet);

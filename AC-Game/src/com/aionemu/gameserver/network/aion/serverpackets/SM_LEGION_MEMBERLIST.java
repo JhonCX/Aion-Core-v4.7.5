@@ -31,6 +31,7 @@ package com.aionemu.gameserver.network.aion.serverpackets;
 
 import java.util.List;
 
+import com.aionemu.gameserver.configs.network.NetworkConfig;
 import com.aionemu.gameserver.model.house.House;
 import com.aionemu.gameserver.model.team.legion.LegionMemberEx;
 import com.aionemu.gameserver.network.PacketLoggerService;
@@ -40,6 +41,7 @@ import com.aionemu.gameserver.services.HousingService;
 
 /**
  * @author Simple
+ * @modified A7xatomic!
  */
 public class SM_LEGION_MEMBERLIST extends AionServerPacket {
 
@@ -90,7 +92,7 @@ public class SM_LEGION_MEMBERLIST extends AionServerPacket {
                 writeD(0);
                 writeD(0);
             }
-            writeD(115); // unk, seen values 0, 1, 111
+            writeD(NetworkConfig.GAMESERVER_ID);
         }
     }
 }

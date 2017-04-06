@@ -71,14 +71,35 @@
     </source>
     <!-- Sillus Fortress (Katalam) -->
     <fortress id="5011">
-        <siegeTime>0 0 21 ? * TUE</siegeTime>
+        <siegeTime>0 0 21 ? * MON,THU</siegeTime><!-- 4.7.5 -->
     </fortress>
     <!-- Silona Fortress (Danaria) -->
     <fortress id="6011">
-        <siegeTime>0 0 21 ? * THU</siegeTime>
+        <siegeTime>0 0 21 ? * MON,THU</siegeTime><!-- 4.7.5 -->
     </fortress>
     <!-- Pradeth Fortress (Danaria) -->
     <fortress id="6021">
-        <siegeTime>0 0 21 ? * THU</siegeTime>
+        <siegeTime>0 0 21 ? * MON,THU</siegeTime><!-- 4.7.5 -->
+    </fortress>  
+    <!-- Anoha Fortress -->
+    <fortress id="7011">
+        <siegeTime>0 0 18 ? * SUN</siegeTime><!-- 4.7.5 -->
     </fortress>
+    <!-- Pangea Fortress --> 
+    <!-- Belus Fortress -->     
+    <fortress id="10111">
+        <siegeTime>0 0 20 ? * SUN</siegeTime>
+    </fortress>
+    <!-- Aspida Fortress --> 
+    <fortress id="10211">
+        <siegeTime>0 0 20 ? * SUN</siegeTime>
+    </fortress>
+    <!-- Atanaos Fortress --> 
+    <fortress id="10311">
+        <siegeTime>0 0 20 ? * SUN</siegeTime>
+    </fortress>
+    <!-- Disillon Fortress --> 
+    <fortress id="10411">
+        <siegeTime>0 0 20 ? * SUN</siegeTime>
+    </fortress>                   
 </siege_schedule>

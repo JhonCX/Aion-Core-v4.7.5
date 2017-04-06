@@ -16998,6 +16998,2864 @@
             <rate name="BOOST_CASTING_TIME" value="1" bonus="true"/>
         </modifiers>
     </random_bonus>
+    <random_bonus type="INVENTORY" id="342">
+        <modifiers chance="7.0">
+            <add name="PHYSICAL_DEFENSE" value="30" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="28" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="18" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="26" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="21" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="14" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+        </modifiers>
+        <modifiers chance="15.0">
+            <add name="PHYSICAL_DEFENSE" value="19" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="16" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="24" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="12" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="16" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="12" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="9" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="3" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="1" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="343">
+        <modifiers chance="7.0">
+            <add name="PHYSICAL_DEFENSE" value="30" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="28" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="18" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="26" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="21" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="14" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+        </modifiers>
+        <modifiers chance="15.0">
+            <add name="PHYSICAL_DEFENSE" value="19" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="16" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="24" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="12" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="16" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="12" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="9" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="3" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="1" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="344">
+        <modifiers chance="7.0">
+            <add name="PHYSICAL_DEFENSE" value="30" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="28" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="18" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="26" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="21" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="14" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+        </modifiers>
+        <modifiers chance="15.0">
+            <add name="PHYSICAL_DEFENSE" value="19" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="16" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="24" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="12" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="16" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="12" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="9" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="3" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="1" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="345">
+        <modifiers chance="7.0">
+            <add name="PHYSICAL_DEFENSE" value="30" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="20" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="28" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="17" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="26" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="17" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="20" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="21" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="14" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="14" bonus="true"/>
+        </modifiers>
+        <modifiers chance="15.0">
+            <add name="PHYSICAL_DEFENSE" value="19" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="16" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="24" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="12" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="16" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="16" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="12" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="4" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="9" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="7" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="3" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="1" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="346">
+        <modifiers chance="7.0">
+            <add name="PHYSICAL_DEFENSE" value="30" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="28" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="18" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="26" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="21" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="14" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+        </modifiers>
+        <modifiers chance="15.0">
+            <add name="PHYSICAL_DEFENSE" value="19" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="16" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="24" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="12" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="16" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="12" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="9" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="3" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="1" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="347">
+        <modifiers chance="7.0">
+            <add name="PHYSICAL_DEFENSE" value="30" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="20" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="28" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="17" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="26" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="17" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="20" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="21" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="14" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="14" bonus="true"/>
+        </modifiers>
+        <modifiers chance="15.0">
+            <add name="PHYSICAL_DEFENSE" value="19" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="16" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="24" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="12" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="16" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="16" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="12" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="4" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="9" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="7" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="3" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="1" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="348">
+        <modifiers chance="7.0">
+            <add name="PHYSICAL_DEFENSE" value="30" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="20" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="28" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="17" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="26" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="17" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="20" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="21" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="14" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="14" bonus="true"/>
+        </modifiers>
+        <modifiers chance="15.0">
+            <add name="PHYSICAL_DEFENSE" value="19" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="16" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="24" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="12" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="16" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="16" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="12" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="4" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="9" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="7" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="3" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="1" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="349">
+        <modifiers chance="7.0">
+            <add name="PHYSICAL_DEFENSE" value="30" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="20" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="28" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="17" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="26" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="17" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="20" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="21" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="14" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="14" bonus="true"/>
+        </modifiers>
+        <modifiers chance="15.0">
+            <add name="PHYSICAL_DEFENSE" value="19" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="16" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="24" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="12" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="16" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="16" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="12" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="4" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="9" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="7" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="3" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="1" bonus="true"/>
+            <rate name="SPEED" value="1" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="350">
+        <modifiers chance="7.0">
+            <add name="PHYSICAL_DEFENSE" value="30" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="10" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="28" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="18" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="10" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="26" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="9" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="21" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="14" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="15.0">
+            <add name="PHYSICAL_DEFENSE" value="19" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="16" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="17" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="12" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="7" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="24" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="6" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="13" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="8" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="3" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="351">
+        <modifiers chance="7.0">
+            <add name="PHYSICAL_DEFENSE" value="30" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="10" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="28" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="18" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="10" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="26" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="9" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="21" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="14" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="15.0">
+            <add name="PHYSICAL_DEFENSE" value="19" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="16" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="17" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="12" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="7" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="24" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="6" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="13" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="8" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="3" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="352">
+        <modifiers chance="7.0">
+            <add name="PHYSICAL_DEFENSE" value="30" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="10" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="28" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="18" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="10" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="26" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="9" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="21" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="14" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="15.0">
+            <add name="PHYSICAL_DEFENSE" value="19" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="16" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="17" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="12" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="7" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="24" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="6" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="13" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="8" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="3" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="353">
+        <modifiers chance="7.0">
+            <add name="PHYSICAL_DEFENSE" value="30" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="20" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="28" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="18" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="17" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="26" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="17" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="20" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="21" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="14" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="14" bonus="true"/>
+        </modifiers>
+        <modifiers chance="15.0">
+            <add name="PHYSICAL_DEFENSE" value="19" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="16" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="24" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="12" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="16" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="16" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="12" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="4" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="9" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="7" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="3" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="1" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="354">
+        <modifiers chance="7.0">
+            <add name="PHYSICAL_DEFENSE" value="30" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="10" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="28" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="18" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="10" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="26" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="9" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="21" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="14" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="15.0">
+            <add name="PHYSICAL_DEFENSE" value="19" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="16" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="17" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="12" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="7" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="24" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="6" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="13" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="8" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="3" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="355">
+        <modifiers chance="7.0">
+            <add name="PHYSICAL_DEFENSE" value="30" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="20" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="28" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="18" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="17" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="26" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="17" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="20" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="21" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="14" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="14" bonus="true"/>
+        </modifiers>
+        <modifiers chance="15.0">
+            <add name="PHYSICAL_DEFENSE" value="19" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="16" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="24" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="12" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="16" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="16" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="12" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="4" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="9" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="7" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="3" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="1" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="356">
+        <modifiers chance="7.0">
+            <add name="PHYSICAL_DEFENSE" value="30" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="20" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="28" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="18" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="17" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="26" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="17" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="20" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="21" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="14" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="14" bonus="true"/>
+        </modifiers>
+        <modifiers chance="15.0">
+            <add name="PHYSICAL_DEFENSE" value="19" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="16" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="24" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="12" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="16" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="16" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="12" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="4" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="9" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="7" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="3" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="1" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="357">
+        <modifiers chance="7.0">
+            <add name="PHYSICAL_DEFENSE" value="30" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="20" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="28" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="18" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="17" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="26" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="17" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="20" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="21" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="14" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="14" bonus="true"/>
+        </modifiers>
+        <modifiers chance="15.0">
+            <add name="PHYSICAL_DEFENSE" value="19" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="16" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="24" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="12" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="16" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="16" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="12" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="4" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="9" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="7" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="3" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="1" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="358">
+        <modifiers chance="7.0">
+            <add name="MAGICAL_ACCURACY" value="20" bonus="true"/>
+            <add name="MAGICAL_CRITICAL" value="10" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="40" bonus="true"/>
+            <rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="MAGICAL_ACCURACY" value="20" bonus="true"/>
+            <add name="MAGICAL_CRITICAL" value="9" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="37" bonus="true"/>
+            <rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="MAGICAL_ACCURACY" value="18" bonus="true"/>
+            <add name="MAGICAL_CRITICAL" value="10" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="33" bonus="true"/>
+            <rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.00">
+            <add name="MAGICAL_ACCURACY" value="13" bonus="true"/>
+            <add name="MAGICAL_CRITICAL" value="8" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="22" bonus="true"/>
+        </modifiers>
+        <modifiers chance="15.00">
+            <add name="MAGICAL_ACCURACY" value="11" bonus="true"/>
+            <add name="MAGICAL_CRITICAL" value="7" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="26" bonus="true"/>
+            <rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.00">
+            <add name="MAGICAL_ACCURACY" value="9" bonus="true"/>
+            <add name="MAGICAL_CRITICAL" value="5" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="30" bonus="true"/>
+            <rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.00">
+            <add name="MAGICAL_ACCURACY" value="15" bonus="true"/>
+            <add name="MAGICAL_CRITICAL" value="6" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="18" bonus="true"/>
+            <rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.00">
+            <add name="MAGICAL_ACCURACY" value="4" bonus="true"/>
+            <add name="MAGICAL_CRITICAL" value="4" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="14" bonus="true"/>
+            <rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.00">
+            <add name="MAGICAL_ACCURACY" value="3" bonus="true"/>
+            <add name="MAGICAL_CRITICAL" value="3" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.00">
+            <add name="MAGICAL_ACCURACY" value="1" bonus="true"/>
+            <add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="2" bonus="true"/>
+            <rate name="ATTACK_SPEED" value="-2" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="359">
+        <modifiers chance="7.0">
+            <add name="PHYSICAL_DEFENSE" value="50" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="30" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="47" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="28" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="44" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="17" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="30" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="32" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="14" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="22" bonus="true"/>
+        </modifiers>
+        <modifiers chance="15.0">
+            <add name="PHYSICAL_DEFENSE" value="36" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="16" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="19" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="28" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="25" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="40" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="12" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="16" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="20" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="12" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="4" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="3" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="360">
+        <modifiers chance="7.0">
+            <add name="PHYSICAL_DEFENSE" value="40" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="30" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="37" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="28" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="34" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="17" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="30" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="25" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="14" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="22" bonus="true"/>
+        </modifiers>
+        <modifiers chance="15.0">
+            <add name="PHYSICAL_DEFENSE" value="28" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="16" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="19" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="22" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="25" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="31" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="12" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="16" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="18" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="13" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="5" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="3" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="361">
+        <modifiers chance="7.0">
+            <add name="PHYSICAL_DEFENSE" value="30" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="20" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="28" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="17" bonus="true"/>
+            <rate name="ATTACK_SPEED" value="-1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="26" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="17" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="20" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="21" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="14" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="14" bonus="true"/>
+        </modifiers>
+        <modifiers chance="15.0">
+            <add name="PHYSICAL_DEFENSE" value="19" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="16" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="24" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="12" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="16" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="16" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="12" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="4" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="9" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="7" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="3" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="1" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-1" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="362">
+        <modifiers chance="7.0">
+            <add name="PHYSICAL_DEFENSE" value="30" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="20" bonus="true"/>
+			<rate name="SPEED" value="-1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="28" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="17" bonus="true"/>
+            <rate name="SPEED" value="-1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="26" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="17" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="20" bonus="true"/>
+			<rate name="SPEED" value="-1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="21" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="14" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="14" bonus="true"/>
+        </modifiers>
+        <modifiers chance="15.0">
+            <add name="PHYSICAL_DEFENSE" value="19" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="16" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
+			<rate name="SPEED" value="-1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="24" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="12" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
+			<rate name="SPEED" value="-1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="16" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="16" bonus="true"/>
+			<rate name="SPEED" value="-1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="12" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="4" bonus="true"/>
+			<rate name="SPEED" value="-1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="9" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="7" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="3" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="1" bonus="true"/>
+			<rate name="SPEED" value="-1" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="363">
+        <modifiers chance="7.0">
+            <add name="PHYSICAL_DEFENSE" value="30" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="20" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="28" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="17" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="26" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="17" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="20" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="21" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="14" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="14" bonus="true"/>
+        </modifiers>
+        <modifiers chance="15.0">
+            <add name="PHYSICAL_DEFENSE" value="19" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="16" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="24" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="12" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="16" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="16" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="12" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="4" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="9" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="7" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="3" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="1" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="364">
+        <modifiers chance="7.0">
+            <add name="PHYSICAL_DEFENSE" value="50" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="20" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="47" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="17" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="44" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="17" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="20" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="32" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="14" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="14" bonus="true"/>
+        </modifiers>
+        <modifiers chance="15.0">
+            <add name="PHYSICAL_DEFENSE" value="36" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="16" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="28" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="12" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="40" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="16" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="20" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="4" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="12" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="7" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="4" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="1" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="365">
+        <modifiers chance="4.00">
+            <add name="PHYSICAL_ACCURACY" value="10" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="10" bonus="true"/>
+            <add name="PHYSICAL_CRITICAL" value="10" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.00">
+            <add name="PHYSICAL_ACCURACY" value="9" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="8" bonus="true"/>
+            <add name="PHYSICAL_CRITICAL" value="9" bonus="true"/>
+        </modifiers>
+        <modifiers chance="7.00">
+            <add name="PHYSICAL_ACCURACY" value="8" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="9" bonus="true"/>
+            <add name="PHYSICAL_CRITICAL" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.00">
+            <add name="PHYSICAL_ACCURACY" value="7" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="8" bonus="true"/>
+            <add name="PHYSICAL_CRITICAL" value="6" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.00">
+            <add name="PHYSICAL_ACCURACY" value="6" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="6" bonus="true"/>
+            <add name="PHYSICAL_CRITICAL" value="7" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.00">
+            <add name="PHYSICAL_ACCURACY" value="5" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="7" bonus="true"/>
+            <add name="PHYSICAL_CRITICAL" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.00">
+            <add name="PHYSICAL_ACCURACY" value="6" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
+            <add name="PHYSICAL_CRITICAL" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.00">
+            <add name="PHYSICAL_ACCURACY" value="4" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
+            <add name="PHYSICAL_CRITICAL" value="4" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.00">
+            <add name="PHYSICAL_ACCURACY" value="3" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+            <add name="PHYSICAL_CRITICAL" value="2" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.00">
+            <add name="PHYSICAL_ACCURACY" value="2" bonus="true"/>
+            <add name="PHYSICAL_ATTACK" value="1" bonus="true"/>
+            <add name="PHYSICAL_CRITICAL" value="3" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="366">
+        <modifiers chance="4.0">
+            <add name="MAGICAL_ACCURACY" value="5" bonus="true"/>
+            <add name="MAGICAL_CRITICAL" value="5" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="20" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="MAGICAL_ACCURACY" value="5" bonus="true"/>
+            <add name="MAGICAL_CRITICAL" value="4" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="18" bonus="true"/>
+        </modifiers>
+        <modifiers chance="7.0">
+            <add name="MAGICAL_ACCURACY" value="4" bonus="true"/>
+            <add name="MAGICAL_CRITICAL" value="5" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="15" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.00">
+            <add name="MAGICAL_ACCURACY" value="4" bonus="true"/>
+            <add name="MAGICAL_CRITICAL" value="3" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.00">
+            <add name="MAGICAL_ACCURACY" value="3" bonus="true"/>
+            <add name="MAGICAL_CRITICAL" value="4" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="14" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.00">
+            <add name="MAGICAL_ACCURACY" value="3" bonus="true"/>
+            <add name="MAGICAL_CRITICAL" value="3" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.00">
+            <add name="MAGICAL_ACCURACY" value="3" bonus="true"/>
+            <add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.00">
+            <add name="MAGICAL_ACCURACY" value="2" bonus="true"/>
+            <add name="MAGICAL_CRITICAL" value="3" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="7" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.00">
+            <add name="MAGICAL_ACCURACY" value="1" bonus="true"/>
+            <add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="5" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.00">
+            <add name="MAGICAL_ACCURACY" value="2" bonus="true"/>
+            <add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="3" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="367">
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="20" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
+			<add name="BLOCK" value="10" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="18" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="9" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
+			<add name="BLOCK" value="9" bonus="true"/>
+        </modifiers>
+        <modifiers chance="7.0">
+            <add name="PHYSICAL_DEFENSE" value="15" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="9" bonus="true"/>
+			<add name="BLOCK" value="8" bonus="true"/>
+			<rate name="BOOST_HATE" value="-46" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="12" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
+			<add name="BLOCK" value="6" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="14" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="6" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="6" bonus="true"/>
+			<add name="BLOCK" value="5" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="10" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="7" bonus="true"/>
+			<add name="BLOCK" value="6" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="8" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="4" bonus="true"/>
+			<add name="BLOCK" value="7" bonus="true"/>
+			<rate name="BOOST_HATE" value="-46" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.0">
+            <add name="PHYSICAL_DEFENSE" value="7" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="5" bonus="true"/>
+			<add name="BLOCK" value="4" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.0">
+            <add name="PHYSICAL_DEFENSE" value="5" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="3" bonus="true"/>
+			<add name="BLOCK" value="2" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.0">
+            <add name="PHYSICAL_DEFENSE" value="3" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="2" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="1" bonus="true"/>
+			<add name="BLOCK" value="3" bonus="true"/>
+			<rate name="BOOST_HATE" value="-46" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="368">
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="20" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
+			<add name="BLOCK" value="10" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="18" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="9" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
+			<add name="BLOCK" value="9" bonus="true"/>
+        </modifiers>
+        <modifiers chance="7.0">
+            <add name="PHYSICAL_DEFENSE" value="15" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="9" bonus="true"/>
+			<add name="BLOCK" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="12" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
+			<add name="BLOCK" value="6" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="14" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="6" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="6" bonus="true"/>
+			<add name="BLOCK" value="5" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="10" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="7" bonus="true"/>
+			<add name="BLOCK" value="6" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="8" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="4" bonus="true"/>
+			<add name="BLOCK" value="7" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.0">
+            <add name="PHYSICAL_DEFENSE" value="7" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="5" bonus="true"/>
+			<add name="BLOCK" value="4" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.0">
+            <add name="PHYSICAL_DEFENSE" value="5" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="3" bonus="true"/>
+			<add name="BLOCK" value="2" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.0">
+            <add name="PHYSICAL_DEFENSE" value="3" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="2" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="1" bonus="true"/>
+			<add name="BLOCK" value="3" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="369">
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="20" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
+			<add name="PARRY" value="10" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="18" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="9" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
+			<add name="PARRY" value="9" bonus="true"/>
+        </modifiers>
+        <modifiers chance="7.0">
+            <add name="PHYSICAL_DEFENSE" value="15" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="9" bonus="true"/>
+			<add name="PARRY" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="12" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
+			<add name="PARRY" value="6" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="14" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="6" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="6" bonus="true"/>
+			<add name="PARRY" value="5" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="10" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="7" bonus="true"/>
+			<add name="PARRY" value="6" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="8" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="4" bonus="true"/>
+			<add name="PARRY" value="7" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.0">
+            <add name="PHYSICAL_DEFENSE" value="7" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="5" bonus="true"/>
+			<add name="PARRY" value="4" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.0">
+            <add name="PHYSICAL_DEFENSE" value="5" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="3" bonus="true"/>
+			<add name="PARRY" value="2" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.0">
+            <add name="PHYSICAL_DEFENSE" value="3" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="2" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="1" bonus="true"/>
+			<add name="PARRY" value="3" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="370">
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="20" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
+			<add name="HEAL_BOOST" value="10" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="18" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="9" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
+			<add name="HEAL_BOOST" value="9" bonus="true"/>
+        </modifiers>
+        <modifiers chance="7.0">
+            <add name="PHYSICAL_DEFENSE" value="15" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="9" bonus="true"/>
+			<add name="HEAL_BOOST" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="12" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
+			<add name="HEAL_BOOST" value="6" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="14" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="6" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="6" bonus="true"/>
+			<add name="HEAL_BOOST" value="5" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="10" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="7" bonus="true"/>
+			<add name="HEAL_BOOST" value="6" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="8" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="4" bonus="true"/>
+			<add name="HEAL_BOOST" value="7" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.0">
+            <add name="PHYSICAL_DEFENSE" value="7" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="5" bonus="true"/>
+			<add name="HEAL_BOOST" value="4" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.0">
+            <add name="PHYSICAL_DEFENSE" value="5" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="3" bonus="true"/>
+			<add name="HEAL_BOOST" value="2" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.0">
+            <add name="PHYSICAL_DEFENSE" value="3" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="2" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="1" bonus="true"/>
+			<add name="HEAL_BOOST" value="3" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="371">
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="20" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="15" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="20" bonus="true"/>
+			<add name="PARRY" value="10" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="17" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="13" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="18" bonus="true"/>
+			<add name="PARRY" value="9" bonus="true"/>
+        </modifiers>
+        <modifiers chance="7.0">
+            <add name="PHYSICAL_DEFENSE" value="16" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="14" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="15" bonus="true"/>
+			<add name="PARRY" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="14" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
+			<add name="PARRY" value="6" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="12" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="11" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="13" bonus="true"/>
+			<add name="PARRY" value="5" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="11" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="9" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
+			<add name="PARRY" value="6" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="7" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
+			<add name="PARRY" value="7" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.0">
+            <add name="PHYSICAL_DEFENSE" value="9" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="7" bonus="true"/>
+			<add name="PARRY" value="4" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.0">
+            <add name="PHYSICAL_DEFENSE" value="6" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="5" bonus="true"/>
+			<add name="PARRY" value="2" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.0">
+            <add name="PHYSICAL_DEFENSE" value="4" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="3" bonus="true"/>
+			<add name="PARRY" value="3" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="372">
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="20" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+            <add name="EVASION" value="10" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="18" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
+			<add name="EVASION" value="9" bonus="true"/>
+        </modifiers>
+        <modifiers chance="7.0">
+            <add name="PHYSICAL_DEFENSE" value="15" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="9" bonus="true"/>
+			<add name="EVASION" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="12" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
+			<add name="EVASION" value="6" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="14" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="6" bonus="true"/>
+			<add name="EVASION" value="5" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="10" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+			<add name="EVASION" value="6" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="8" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+			<add name="EVASION" value="7" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.0">
+            <add name="PHYSICAL_DEFENSE" value="7" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
+			<add name="EVASION" value="4" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.0">
+            <add name="PHYSICAL_DEFENSE" value="8" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
+			<add name="EVASION" value="2" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.0">
+            <add name="PHYSICAL_DEFENSE" value="3" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
+			<add name="EVASION" value="3" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="373">
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="20" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="20" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+            <add name="PHYSICAL_DEFENSE" value="17" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="18" bonus="true"/>
+        </modifiers>
+        <modifiers chance="7.0">
+            <add name="PHYSICAL_DEFENSE" value="16" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="9" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="15" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+            <add name="PHYSICAL_DEFENSE" value="14" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="12" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="6" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="13" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="11" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="7" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.0">
+            <add name="PHYSICAL_DEFENSE" value="9" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="7" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.0">
+            <add name="PHYSICAL_DEFENSE" value="6" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="5" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.0">
+            <add name="PHYSICAL_DEFENSE" value="4" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="3" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+
+    <random_bonus type="INVENTORY" id="375">
+        <modifiers chance="4.0">
+			<add name="MAGICAL_RESIST" value="15" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="20" bonus="true"/>
+			<add name="HEAL_BOOST" value="10" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+			<add name="MAGICAL_RESIST" value="14" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="18" bonus="true"/>
+		    <add name="HEAL_BOOST" value="9" bonus="true"/>
+        </modifiers>
+        <modifiers chance="7.0">
+			<add name="MAGICAL_RESIST" value="13" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="15" bonus="true"/>
+		    <add name="HEAL_BOOST" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+			<add name="MAGICAL_RESIST" value="11" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
+		    <add name="HEAL_BOOST" value="6" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+			<add name="MAGICAL_RESIST" value="10" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="13" bonus="true"/>
+		    <add name="HEAL_BOOST" value="5" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+			<add name="MAGICAL_RESIST" value="7" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
+		    <add name="HEAL_BOOST" value="6" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+			<add name="MAGICAL_RESIST" value="8" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
+		    <add name="HEAL_BOOST" value="7" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.0">
+			<add name="MAGICAL_RESIST" value="6" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="7" bonus="true"/>
+			<add name="HEAL_BOOST" value="4" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.0">
+			<add name="MAGICAL_RESIST" value="5" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="5" bonus="true"/>
+			<add name="HEAL_BOOST" value="2" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.0">
+			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="3" bonus="true"/>
+			<add name="HEAL_BOOST" value="3" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="376">
+        <modifiers chance="5.0">
+			<add name="PHYSICAL_ACCURACY" value="20" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="10" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="10" bonus="true"/>
+        </modifiers>
+        <modifiers chance="8.0">
+			<add name="PHYSICAL_ACCURACY" value="18" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="8" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="9" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+			<add name="PHYSICAL_ACCURACY" value="15" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="9" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+			<add name="PHYSICAL_ACCURACY" value="12" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="8" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="6" bonus="true"/>
+        </modifiers>
+        <modifiers chance="15.0">
+			<add name="PHYSICAL_ACCURACY" value="14" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="6" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="7" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+			<add name="PHYSICAL_ACCURACY" value="10" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="7" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.0">
+			<add name="PHYSICAL_ACCURACY" value="8" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="9.0">
+			<add name="PHYSICAL_ACCURACY" value="7" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="5" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="4" bonus="true"/>
+        </modifiers>
+        <modifiers chance="5.0">
+			<add name="PHYSICAL_ACCURACY" value="5" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="2" bonus="true"/>
+        </modifiers>
+        <modifiers chance="5.0">
+			<add name="PHYSICAL_ACCURACY" value="3" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="1" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="3" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="377">
+        <modifiers chance="5.0">
+            <add name="MAGICAL_ACCURACY" value="10" bonus="true"/>
+            <add name="MAGICAL_CRITICAL" value="5" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="20" bonus="true"/>
+        </modifiers>
+        <modifiers chance="8.0">
+            <add name="MAGICAL_ACCURACY" value="9" bonus="true"/>
+            <add name="MAGICAL_CRITICAL" value="4" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="18" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="MAGICAL_ACCURACY" value="8" bonus="true"/>
+            <add name="MAGICAL_CRITICAL" value="5" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="15" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.00">
+            <add name="MAGICAL_ACCURACY" value="7" bonus="true"/>
+            <add name="MAGICAL_CRITICAL" value="3" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
+        </modifiers>
+        <modifiers chance="15.00">
+            <add name="MAGICAL_ACCURACY" value="6" bonus="true"/>
+            <add name="MAGICAL_CRITICAL" value="4" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="14" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.00">
+            <add name="MAGICAL_ACCURACY" value="5" bonus="true"/>
+            <add name="MAGICAL_CRITICAL" value="3" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.00">
+            <add name="MAGICAL_ACCURACY" value="6" bonus="true"/>
+            <add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="9.00">
+            <add name="MAGICAL_ACCURACY" value="4" bonus="true"/>
+            <add name="MAGICAL_CRITICAL" value="3" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="7" bonus="true"/>
+        </modifiers>
+        <modifiers chance="5.00">
+            <add name="MAGICAL_ACCURACY" value="3" bonus="true"/>
+            <add name="MAGICAL_CRITICAL" value="2" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="5" bonus="true"/>
+        </modifiers>
+        <modifiers chance="5.00">
+            <add name="MAGICAL_ACCURACY" value="2" bonus="true"/>
+            <add name="MAGICAL_CRITICAL" value="1" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="3" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="378">
+        <modifiers chance="5.0">
+            <add name="PHYSICAL_DEFENSE" value="20" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="10" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+			<add name="BLOCK" value="20" bonus="true"/>
+        </modifiers>
+        <modifiers chance="8.0">
+            <add name="PHYSICAL_DEFENSE" value="17" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="9" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
+			<add name="BLOCK" value="18" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="16" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="8" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="9" bonus="true"/>
+			<add name="BLOCK" value="15" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="14" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="6" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
+			<add name="BLOCK" value="12" bonus="true"/>
+        </modifiers>
+        <modifiers chance="15.0">
+            <add name="PHYSICAL_DEFENSE" value="12" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="5" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="6" bonus="true"/>
+			<add name="BLOCK" value="13" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="11" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="6" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+			<add name="BLOCK" value="10" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.0">
+            <add name="PHYSICAL_DEFENSE" value="7" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="7" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+			<add name="BLOCK" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="9.0">
+            <add name="PHYSICAL_DEFENSE" value="9" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="4" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
+			<add name="BLOCK" value="7" bonus="true"/>
+        </modifiers>
+        <modifiers chance="5.0">
+            <add name="PHYSICAL_DEFENSE" value="6" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
+			<add name="BLOCK" value="5" bonus="true"/>
+        </modifiers>
+        <modifiers chance="5.0">
+            <add name="PHYSICAL_DEFENSE" value="4" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
+			<add name="BLOCK" value="3" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="379">
+        <modifiers chance="5.0">
+            <add name="PHYSICAL_DEFENSE" value="20" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="10" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+			<add name="BLOCK" value="20" bonus="true"/>
+        </modifiers>
+        <modifiers chance="8.0">
+            <add name="PHYSICAL_DEFENSE" value="17" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="9" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
+			<add name="BLOCK" value="18" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="16" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="8" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="9" bonus="true"/>
+			<add name="BLOCK" value="15" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="14" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="6" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
+			<add name="BLOCK" value="12" bonus="true"/>
+        </modifiers>
+        <modifiers chance="15.0">
+            <add name="PHYSICAL_DEFENSE" value="12" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="5" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="6" bonus="true"/>
+			<add name="BLOCK" value="13" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="11" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="6" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+			<add name="BLOCK" value="10" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.0">
+            <add name="PHYSICAL_DEFENSE" value="7" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="7" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+			<add name="BLOCK" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="9.0">
+            <add name="PHYSICAL_DEFENSE" value="9" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="4" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
+			<add name="BLOCK" value="7" bonus="true"/>
+        </modifiers>
+        <modifiers chance="5.0">
+            <add name="PHYSICAL_DEFENSE" value="6" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
+			<add name="BLOCK" value="5" bonus="true"/>
+        </modifiers>
+        <modifiers chance="5.0">
+            <add name="PHYSICAL_DEFENSE" value="4" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
+			<add name="BLOCK" value="3" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="380">
+        <modifiers chance="5.0">
+            <add name="PHYSICAL_DEFENSE" value="20" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="10" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="20" bonus="true"/>
+        </modifiers>
+        <modifiers chance="8.0">
+            <add name="PHYSICAL_DEFENSE" value="17" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="9" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="18" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="16" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="8" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="9" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="15" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="14" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="6" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
+        </modifiers>
+        <modifiers chance="15.0">
+            <add name="PHYSICAL_DEFENSE" value="12" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="5" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="6" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="13" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="11" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="6" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.0">
+            <add name="PHYSICAL_DEFENSE" value="7" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="7" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="9.0">
+            <add name="PHYSICAL_DEFENSE" value="9" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="4" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="7" bonus="true"/>
+        </modifiers>
+        <modifiers chance="5.0">
+            <add name="PHYSICAL_DEFENSE" value="6" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="5" bonus="true"/>
+        </modifiers>
+        <modifiers chance="5.0">
+            <add name="PHYSICAL_DEFENSE" value="4" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="3" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="381">
+        <modifiers chance="5.0">
+            <add name="EVASION" value="10" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="10" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="20" bonus="true"/>
+        </modifiers>
+        <modifiers chance="8.0">
+            <add name="EVASION" value="8" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="9" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="18" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="EVASION" value="9" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="8" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="9" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="15" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="EVASION" value="8" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="6" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
+        </modifiers>
+        <modifiers chance="15.0">
+            <add name="EVASION" value="6" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="5" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="6" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="13" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="EVASION" value="7" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="6" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.0">
+            <add name="EVASION" value="4" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="7" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="9.0">
+            <add name="EVASION" value="5" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="4" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="7" bonus="true"/>
+        </modifiers>
+        <modifiers chance="5.0">
+            <add name="EVASION" value="3" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="5" bonus="true"/>
+        </modifiers>
+        <modifiers chance="5.0">
+            <add name="EVASION" value="1" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="3" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="382">
+        <modifiers chance="5.0">
+            <add name="PHYSICAL_DEFENSE" value="20" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="10" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="20" bonus="true"/>
+        </modifiers>
+        <modifiers chance="8.0">
+            <add name="PHYSICAL_DEFENSE" value="17" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="9" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="18" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+            <add name="PHYSICAL_DEFENSE" value="16" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="8" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="9" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="15" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="14" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="6" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
+        </modifiers>
+        <modifiers chance="15.0">
+            <add name="PHYSICAL_DEFENSE" value="12" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="5" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="6" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="13" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+            <add name="PHYSICAL_DEFENSE" value="11" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="6" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.0">
+            <add name="PHYSICAL_DEFENSE" value="7" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="7" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="9.0">
+            <add name="PHYSICAL_DEFENSE" value="9" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="4" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="7" bonus="true"/>
+        </modifiers>
+        <modifiers chance="5.0">
+            <add name="PHYSICAL_DEFENSE" value="6" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="2" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="5" bonus="true"/>
+        </modifiers>
+        <modifiers chance="5.0">
+            <add name="PHYSICAL_DEFENSE" value="4" bonus="true"/>
+			<add name="MAGICAL_RESIST" value="3" bonus="true"/>
+            <add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
+            <add name="BOOST_MAGICAL_SKILL" value="3" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="383">
+        <modifiers chance="5.0">
+			<add name="PHYSICAL_ACCURACY" value="20" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="10" bonus="true"/>
+        </modifiers>
+        <modifiers chance="8.0">
+			<add name="PHYSICAL_ACCURACY" value="18" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="9" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+			<add name="PHYSICAL_ACCURACY" value="15" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="9" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+			<add name="PHYSICAL_ACCURACY" value="12" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="6" bonus="true"/>
+        </modifiers>
+        <modifiers chance="15.0">
+			<add name="PHYSICAL_ACCURACY" value="14" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="6" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="7" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+			<add name="PHYSICAL_ACCURACY" value="10" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.0">
+			<add name="PHYSICAL_ACCURACY" value="8" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="9.0">
+			<add name="PHYSICAL_ACCURACY" value="7" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="4" bonus="true"/>
+        </modifiers>
+        <modifiers chance="5.0">
+			<add name="PHYSICAL_ACCURACY" value="5" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="2" bonus="true"/>
+        </modifiers>
+        <modifiers chance="5.0">
+			<add name="PHYSICAL_ACCURACY" value="3" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="3" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="384">
+        <modifiers chance="5.0">
+			<add name="MAGICAL_ACCURACY" value="10" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
+        </modifiers>
+        <modifiers chance="8.0">
+			<add name="MAGICAL_ACCURACY" value="9" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="9" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+			<add name="MAGICAL_ACCURACY" value="8" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="9" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+			<add name="MAGICAL_ACCURACY" value="7" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="6" bonus="true"/>
+        </modifiers>
+        <modifiers chance="15.0">
+			<add name="MAGICAL_ACCURACY" value="6" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="6" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="7" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+			<add name="MAGICAL_ACCURACY" value="5" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.0">
+			<add name="MAGICAL_ACCURACY" value="6" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="9.0">
+			<add name="MAGICAL_ACCURACY" value="4" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="4" bonus="true"/>
+        </modifiers>
+        <modifiers chance="5.0">
+			<add name="MAGICAL_ACCURACY" value="3" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="2" bonus="true"/>
+        </modifiers>
+        <modifiers chance="5.0">
+			<add name="MAGICAL_ACCURACY" value="2" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="3" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="385">
+        <modifiers chance="5.0">
+			<add name="PHYSICAL_ACCURACY" value="20" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="10" bonus="true"/>
+        </modifiers>
+        <modifiers chance="8.0">
+			<add name="PHYSICAL_ACCURACY" value="18" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="9" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+			<add name="PHYSICAL_ACCURACY" value="15" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="9" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+			<add name="PHYSICAL_ACCURACY" value="12" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="6" bonus="true"/>
+        </modifiers>
+        <modifiers chance="15.0">
+			<add name="PHYSICAL_ACCURACY" value="14" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="6" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="7" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+			<add name="PHYSICAL_ACCURACY" value="10" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.0">
+			<add name="PHYSICAL_ACCURACY" value="8" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="9.0">
+			<add name="PHYSICAL_ACCURACY" value="7" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
+        </modifiers>
+        <modifiers chance="5.0">
+			<add name="PHYSICAL_ACCURACY" value="5" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
+        </modifiers>
+        <modifiers chance="5.0">
+			<add name="PHYSICAL_ACCURACY" value="3" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="386">
+        <modifiers chance="5.0">
+			<add name="MAGICAL_ACCURACY" value="10" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
+        </modifiers>
+        <modifiers chance="8.0">
+			<add name="MAGICAL_ACCURACY" value="9" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="9" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+			<add name="MAGICAL_ACCURACY" value="8" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="9" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+			<add name="MAGICAL_ACCURACY" value="7" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="6" bonus="true"/>
+        </modifiers>
+        <modifiers chance="15.0">
+			<add name="MAGICAL_ACCURACY" value="6" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="6" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="7" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+			<add name="MAGICAL_ACCURACY" value="5" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.0">
+			<add name="MAGICAL_ACCURACY" value="6" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="9.0">
+			<add name="MAGICAL_ACCURACY" value="4" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="4" bonus="true"/>
+        </modifiers>
+        <modifiers chance="5.0">
+			<add name="MAGICAL_ACCURACY" value="3" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="2" bonus="true"/>
+        </modifiers>
+        <modifiers chance="5.0">
+			<add name="MAGICAL_ACCURACY" value="2" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="3" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="387">
+        <modifiers chance="5.0">
+			<add name="PHYSICAL_ACCURACY" value="20" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="10" bonus="true"/>
+        </modifiers>
+        <modifiers chance="8.0">
+			<add name="PHYSICAL_ACCURACY" value="18" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="9" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+			<add name="PHYSICAL_ACCURACY" value="15" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="9" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+			<add name="PHYSICAL_ACCURACY" value="12" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="6" bonus="true"/>
+        </modifiers>
+        <modifiers chance="15.0">
+			<add name="PHYSICAL_ACCURACY" value="14" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="6" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="7" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+			<add name="PHYSICAL_ACCURACY" value="10" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.0">
+			<add name="PHYSICAL_ACCURACY" value="8" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="9.0">
+			<add name="PHYSICAL_ACCURACY" value="7" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="4" bonus="true"/>
+        </modifiers>
+        <modifiers chance="5.0">
+			<add name="PHYSICAL_ACCURACY" value="5" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="2" bonus="true"/>
+        </modifiers>
+        <modifiers chance="5.0">
+			<add name="PHYSICAL_ACCURACY" value="3" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
+			<add name="PHYSICAL_CRITICAL" value="3" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="388">
+        <modifiers chance="5.0">
+			<add name="MAGICAL_ACCURACY" value="10" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
+        </modifiers>
+        <modifiers chance="8.0">
+			<add name="MAGICAL_ACCURACY" value="9" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="9" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+			<add name="MAGICAL_ACCURACY" value="8" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="9" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+			<add name="MAGICAL_ACCURACY" value="7" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="6" bonus="true"/>
+        </modifiers>
+        <modifiers chance="15.0">
+			<add name="MAGICAL_ACCURACY" value="6" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="6" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="7" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+			<add name="MAGICAL_ACCURACY" value="5" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.0">
+			<add name="MAGICAL_ACCURACY" value="6" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="9.0">
+			<add name="MAGICAL_ACCURACY" value="4" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="4" bonus="true"/>
+        </modifiers>
+        <modifiers chance="5.0">
+			<add name="MAGICAL_ACCURACY" value="3" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="2" bonus="true"/>
+        </modifiers>
+        <modifiers chance="5.0">
+			<add name="MAGICAL_ACCURACY" value="2" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="3" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="389">
+        <modifiers chance="5.0">
+			<add name="PHYSICAL_ACCURACY" value="20" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="10" bonus="true"/>
+        </modifiers>
+        <modifiers chance="8.0">
+			<add name="PHYSICAL_ACCURACY" value="18" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="9" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+			<add name="PHYSICAL_ACCURACY" value="15" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="9" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+			<add name="PHYSICAL_ACCURACY" value="12" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="6" bonus="true"/>
+        </modifiers>
+        <modifiers chance="15.0">
+			<add name="PHYSICAL_ACCURACY" value="14" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="6" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="7" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+			<add name="PHYSICAL_ACCURACY" value="10" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.0">
+			<add name="PHYSICAL_ACCURACY" value="8" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="9.0">
+			<add name="PHYSICAL_ACCURACY" value="7" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
+        </modifiers>
+        <modifiers chance="5.0">
+			<add name="PHYSICAL_ACCURACY" value="5" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
+        </modifiers>
+        <modifiers chance="5.0">
+			<add name="PHYSICAL_ACCURACY" value="3" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="390">
+        <modifiers chance="5.0">
+			<add name="MAGICAL_ACCURACY" value="10" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
+        </modifiers>
+        <modifiers chance="8.0">
+			<add name="MAGICAL_ACCURACY" value="9" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="9" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+			<add name="MAGICAL_ACCURACY" value="8" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="9" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+			<add name="MAGICAL_ACCURACY" value="7" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="8" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="6" bonus="true"/>
+        </modifiers>
+        <modifiers chance="15.0">
+			<add name="MAGICAL_ACCURACY" value="6" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="6" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="7" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+			<add name="MAGICAL_ACCURACY" value="5" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="13.0">
+			<add name="MAGICAL_ACCURACY" value="6" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="8" bonus="true"/>
+        </modifiers>
+        <modifiers chance="9.0">
+			<add name="MAGICAL_ACCURACY" value="4" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="5" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="4" bonus="true"/>
+        </modifiers>
+        <modifiers chance="5.0">
+			<add name="MAGICAL_ACCURACY" value="3" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="3" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="2" bonus="true"/>
+        </modifiers>
+        <modifiers chance="5.0">
+			<add name="MAGICAL_ACCURACY" value="2" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="3" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="391">
+        <modifiers chance="7.0">
+			<add name="PHYSICAL_DEFENSE" value="50" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+			<add name="PHYSICAL_DEFENSE" value="47" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="18" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="4" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+			<add name="PHYSICAL_DEFENSE" value="44" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+			<add name="PHYSICAL_DEFENSE" value="32" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="14" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+        </modifiers>
+        <modifiers chance="15.0">
+			<add name="PHYSICAL_DEFENSE" value="36" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="16" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+			<add name="PHYSICAL_DEFENSE" value="28" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="12" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="3" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+			<add name="PHYSICAL_DEFENSE" value="40" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+			<add name="PHYSICAL_DEFENSE" value="20" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="2" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+			<add name="PHYSICAL_DEFENSE" value="12" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="1" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+			<add name="PHYSICAL_DEFENSE" value="4" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
+			<add name="PHYSICAL_ATTACK" value="1" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="392">
+        <modifiers chance="7.0">
+			<add name="PHYSICAL_DEFENSE" value="50" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="20" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+			<add name="PHYSICAL_DEFENSE" value="47" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="17" bonus="true"/>
+        </modifiers>
+        <modifiers chance="4.0">
+			<add name="PHYSICAL_DEFENSE" value="44" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="20" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="17" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+			<add name="PHYSICAL_DEFENSE" value="32" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="14" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="14" bonus="true"/>
+        </modifiers>
+        <modifiers chance="15.0">
+			<add name="PHYSICAL_DEFENSE" value="36" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="16" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="10" bonus="true"/>
+        </modifiers>
+        <modifiers chance="14.0">
+			<add name="PHYSICAL_DEFENSE" value="28" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="12" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="12" bonus="true"/>
+        </modifiers>
+        <modifiers chance="12.0">
+			<add name="PHYSICAL_DEFENSE" value="40" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="10" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="16" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+			<add name="PHYSICAL_DEFENSE" value="20" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="7" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="4" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+			<add name="PHYSICAL_DEFENSE" value="12" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="4" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="7" bonus="true"/>
+        </modifiers>
+        <modifiers chance="10.0">
+			<add name="PHYSICAL_DEFENSE" value="4" bonus="true"/>
+			<add name="MAGIC_SKILL_BOOST_RESIST" value="1" bonus="true"/>
+			<add name="BOOST_MAGICAL_SKILL" value="1" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="393">
+        <modifiers chance="33.33">
+			<add name="PHYSICAL_ATTACK" value="15" bonus="true"/>
+        </modifiers>
+        <modifiers chance="33.33">
+			<add name="PHYSICAL_CRITICAL" value="57" bonus="true"/>
+        </modifiers>
+        <modifiers chance="33.34">
+			<add name="PHYSICAL_ACCURACY" value="87" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="394">
+        <modifiers chance="33.33">
+			<add name="PHYSICAL_ATTACK" value="20" bonus="true"/>
+        </modifiers>
+        <modifiers chance="33.33">
+			<add name="PHYSICAL_CRITICAL" value="76" bonus="true"/>
+        </modifiers>
+        <modifiers chance="33.34">
+			<add name="PHYSICAL_ACCURACY" value="116" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="395">
+        <modifiers chance="33.33">
+			<add name="BOOST_MAGICAL_SKILL" value="84" bonus="true"/>
+        </modifiers>
+        <modifiers chance="33.33">
+			<add name="MAGICAL_CRITICAL" value="15" bonus="true"/>
+        </modifiers>
+        <modifiers chance="33.34">
+			<add name="MAGICAL_ACCURACY" value="48" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="396">
+        <modifiers chance="33.33">
+			<add name="BOOST_MAGICAL_SKILL" value="112" bonus="true"/>
+        </modifiers>
+        <modifiers chance="33.33">
+			<add name="MAGICAL_CRITICAL" value="20" bonus="true"/>
+        </modifiers>
+        <modifiers chance="33.34">
+			<add name="MAGICAL_ACCURACY" value="64" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="397">
+        <modifiers chance="33.33">
+			<add name="BLOCK" value="87" bonus="true"/>
+        </modifiers>
+        <modifiers chance="33.33">
+			<add name="MAXHP" value="300" bonus="true"/>
+        </modifiers>
+        <modifiers chance="33.34">
+			<add name="MAGICAL_RESIST" value="48" bonus="true"/>
+        </modifiers>
+    </random_bonus>
+    <random_bonus type="INVENTORY" id="398">
+        <modifiers chance="33.33">
+			<add name="BLOCK" value="116" bonus="true"/>
+        </modifiers>
+        <modifiers chance="33.33">
+			<add name="MAXHP" value="400" bonus="true"/>
+        </modifiers>
+        <modifiers chance="33.34">
+			<add name="MAGICAL_RESIST" value="64" bonus="true"/>
+        </modifiers>
+    </random_bonus>
     <random_bonus type="POLISH" id="2">
         <modifiers chance="50.0">
             <rate name="BOOST_HATE" value="-100" bonus="true"/>

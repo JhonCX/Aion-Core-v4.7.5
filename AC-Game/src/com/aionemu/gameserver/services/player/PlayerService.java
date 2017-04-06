@@ -305,8 +305,8 @@ public class PlayerService {
         // load craft cooldowns
         DAOManager.getDAO(CraftCooldownsDAO.class).loadCraftCooldowns(player);
 
-        if (player.getCommonData().getBonusTitleId() > 0) {
-            TitleChangeListener.onBonusTitleChange(player.getGameStats(), player.getCommonData().getTitleId(), true);
+        if (player.getCommonData().getBonusTitleId() > 0) {            
+		TitleChangeListener.onBonusTitleChange(player.getGameStats(), player.getCommonData().getBonusTitleId(), true);
         }
 
         DAOManager.getDAO(PlayerLifeStatsDAO.class).loadPlayerLifeStat(player);

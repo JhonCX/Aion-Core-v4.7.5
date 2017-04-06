@@ -28,13 +28,14 @@
  * @Aion-Core Dev.
  */
 package com.aionemu.gameserver.services.ecfunctions.oneVsone;
-
-
+ 
+ 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
+ 
+ import com.aionemu.gameserver.utils.audit.AuditLogger;
 import com.aionemu.commons.utils.Rnd;
 import com.aionemu.gameserver.configs.main.EventSystem;
 import com.aionemu.gameserver.model.EmotionType;
@@ -83,19 +84,19 @@ public class ArenaMasterService{
     public int quantity1 = EventSystem.QUANTITY1; //make config++
     public int quantity2 = EventSystem.QUANTITY2; // make config++
     public FastMap<Integer, Player> players = new FastMap<Integer, Player>();
-
+ 
     public static ArenaMasterService getInstance(){
         return service;
     }
-
+ 
     //make a way to count the kill counts and the winner and also if its TIE
-
+ 
     public boolean onDie(Player attacker, Creature attacked){
         deathPacket((Player) attacked);
         onDeath(attacker, attacked);
         return true;
     }
-
+ 
     public void onPlayerLogOut(Player player){
         player.setInPkMode(false);
         player.setInDuelArena(false);
@@ -136,9 +137,9 @@ public class ArenaMasterService{
         player.setWinCount(0);
         setRound(player, 0);
         player.setInDuelArena(false);
-        TeleportService2.moveToBindLocation(player, false);
+                TeleportService2.moveToBindLocation(player, false);
     }
-
+ 
     public void onDeath(final Player attacker, final Creature attacked){
         if (attacker.isInDuelArena() && ((Player) attacked).isInDuelArena()){
             if (attacker.getArenaRound() >= 3){
@@ -166,11 +167,11 @@ public class ArenaMasterService{
             }
         }
     }
-
+ 
     private boolean isTie(Player p1, Player p2){
         return p1.isArenaTie() && p2.isArenaTie();
     }
-
+ 
     private void sendSeperateWinLoseMsg(Player winner, Player loser){
         if(isTie(winner, loser)){
             OneVsOneService.getInstance().announceSpecificTwoOnly(winner, loser, ArenaMaster, "No Winner has been Found in this Round!!");
@@ -181,7 +182,7 @@ public class ArenaMasterService{
         OneVsOneService.getInstance().announceOneOnly(winner, ArenaMaster, "You are the winner of this round!");
         OneVsOneService.getInstance().announceOneOnly(loser, ArenaMaster, "You've lost this round!");
     }
-
+ 
     private void deathPacket(Player player){
         player.getLifeStats().setCurrentHpPercent(100);
         player.getLifeStats().sendHpPacketUpdate();
@@ -189,7 +190,7 @@ public class ArenaMasterService{
         PacketSendUtility.sendPacket(player, new SM_EMOTION(player, EmotionType.DIE, 0, player.getX(), player.getY(), player.getZ(), player.getHeading(), player.getTarget().getObjectId()));
         //PacketSendUtility.sendPacket(player, new SM_DIE(false, false, 0 , 0));
     }
-
+ 
     private void giveRewards(Player winner, Player loser){ //make config for AP, GP , or ITEM REWARD
         int rnd = Rnd.get(1, 20);
         Player winz = getWinnerPlayer(winner, loser);
@@ -206,7 +207,7 @@ public class ArenaMasterService{
             }
             return;
         }
-
+ 
         if (EventSystem.ITEMREWARD_ENABLE){ // The item reward is not a 100% reward that you get, there is chance that you will get it or not
             if(rnd == 18){
                 ItemService.addItem(winz, item1, quantity1);
@@ -220,7 +221,7 @@ public class ArenaMasterService{
                 ItemService.addItem(winz, item2, quantity2);
             }
         }
-
+ 
         // Reward for Winners/losers
         if(EventSystem.ENABLE_AP_REWARD){
             AbyssPointsService.addAp(winz, EventSystem.AP_REWARD);
@@ -235,7 +236,7 @@ public class ArenaMasterService{
             InGameShopEn.getInstance().addToll(lost, EventSystem.TOLL_REWARD / 2);
         }
     }
-
+ 
     private void giveLeaveMessages(final Player p1, final Player p2){
         if (p1.getLifeStats().isAlreadyDead()){
             p1.setPlayerResActivate(true);
@@ -248,10 +249,10 @@ public class ArenaMasterService{
             PlayerReviveService.skillRevive(p2);
         }
         sendTimerPacket(p1, p2, 0);
-
+ 
         int winCount = p1.getWinCount();
         p1.setWinCount(winCount + 1);
-
+ 
         Player winner = getWinnerPlayer(p1, p2);
         Player lose = getLoserPlayer(p1, p2);
         if (winner == null){
@@ -261,7 +262,6 @@ public class ArenaMasterService{
             OneVsOneService.getInstance().announceOneOnly(lose, ArenaMaster, "You've Lost the match, But still you will get some Rewards !");
         }
     }
-
     public Player getWinnerPlayer(Player p1, Player p2){
         if (p1.getWinCount() == p2.getWinCount()){
             return null;
@@ -271,7 +271,7 @@ public class ArenaMasterService{
             return p2;
         }
     }
-
+ 
     public Player getLoserPlayer(Player p1, Player p2){
         if (p1.getWinCount() == p2.getWinCount()){
             return null;
@@ -281,22 +281,22 @@ public class ArenaMasterService{
             return p1;
         }
     }
-
+ 
     private void HealPlayer(Player player1, boolean sendUpdatePacket) {
         player1.getLifeStats().setCurrentHpPercent(100);
         player1.getLifeStats().setCurrentMpPercent(100);
-
+ 
         if (sendUpdatePacket) {
             player1.getLifeStats().sendHpPacketUpdate();
             player1.getLifeStats().sendMpPacketUpdate();
         }
     }
-
+ 
     private void setTie(Player p1, Player p2, boolean tieState){
         p1.setArenaTie(tieState);
         p2.setArenaTie(tieState);
     }
-
+ 
     private void giveWinnerMessageAndCheckRound(final Player Winp1, final Player Losep2){
         //if(round == 1){ // just to make sure if winCount is 0, starting from first round, to count
             //Winp1.setWinCount(0);
@@ -309,12 +309,12 @@ public class ArenaMasterService{
             Winp1.setWinCount(winCount + 1);
             OneVsOneService.getInstance().announceSpecificTwoOnly(Winp1, Losep2, ArenaMaster, "The winner of this round is " + Winp1.getName());
         }
-
-
+ 
+ 
         log.info("CURRENT ROUND AFTER DEATH = " + Winp1.getArenaRound());
         increaseRound(Winp1, Losep2);
         log.info("ROUND ADDED with 1 and RESULT = " + Losep2.getArenaRound());
-
+ 
         if(Winp1.getArenaRound() == 2){
             sendTimerPacket(Winp1, Losep2, 305);
             ThreadPoolManager.getInstance().schedule(new Runnable() {
@@ -370,7 +370,7 @@ public class ArenaMasterService{
                 }
             }, 2 * 1000);
         }
-
+ 
         if (Winp1.getArenaRound() == 3) {
             ThreadPoolManager.getInstance().schedule(new Runnable() {
                 @Override
@@ -426,7 +426,7 @@ public class ArenaMasterService{
             sendTimerPacket(Winp1, Losep2, 305);
         }
     }
-
+ 
     private void portThemAsideForNextRound(Player p1, Player p2){
         if(p1.getLifeStats().isAlreadyDead()){
             p1.setPlayerResActivate(true);
@@ -456,7 +456,7 @@ public class ArenaMasterService{
         }
         sendTimerPacket(p1, p2, 305);
     }
-
+ 
     //you have 5sec to give all the msg about winner and all
     private void freezeForSec(final Player alivePlayer, int DelaySeconds){
         alivePlayer.getEffectController().setAbnormal(AbnormalState.PARALYZE.getId());
@@ -469,13 +469,13 @@ public class ArenaMasterService{
             }
         }, DelaySeconds * 1000);
     }
-
+ 
     private void unFreeze(Player alivePlayer){
         alivePlayer.getEffectController().unsetAbnormal(AbnormalState.PARALYZE.getId());
         alivePlayer.getEffectController().updatePlayerEffectIcons();
         alivePlayer.getEffectController().broadCastEffects();
     }
-
+ 
     public void teleportIn(Player player1, Player player2) {
         int random = Rnd.get(1, EventSystem.ONEVSONE_MAPCNT);
         if (random == 1) { // if it is 1 = Sanctum Arena
@@ -508,17 +508,17 @@ public class ArenaMasterService{
         sendTimerPacket(player1, player2, 315);
         giveStartMsg(player1, player2);
     }
-
+ 
     private Player getPlayerFighterFromList(Player p1){
         return players.get(p1.getObjectId());
     }
-
+ 
     private void removePlayerFromFastList(Player p1){
         if (players.containsKey(p1.getObjectId())){
             players.remove(p1.getObjectId());
         }
     }
-
+ 
     private boolean containsInTheList(Player p1){
         if (players.containsKey(p1.getObjectId())){
             return true;
@@ -526,7 +526,7 @@ public class ArenaMasterService{
             return false;
         }
     }
-
+ 
     private void sendTimerPacket(Player p1, Player p2, int timer){
         if(p1 != null){
             PacketSendUtility.sendPacket(p1, new SM_QUEST_ACTION(0, timer));
@@ -535,21 +535,21 @@ public class ArenaMasterService{
             PacketSendUtility.sendPacket(p2, new SM_QUEST_ACTION(0, timer));
         }
     }
-
+ 
     private void setRound(Player player1, int Round){
         player1.setArenaRound(Round);
     }
-
+ 
     private void increaseRound(Player player1, Player player2){
         int p1Round = player1.getArenaRound();
         int p2Round = player2.getArenaRound();
         int p1Final = p1Round + 1;
         int p2Final = p2Round + 1;
-
+ 
         player1.setArenaRound(p1Final);
         player2.setArenaRound(p2Final);
     }
-
+ 
     private void giveStartMsg(final Player p1, final Player p2){
         p1.setArenaRound(1);
         p2.setArenaRound(1);
@@ -617,7 +617,7 @@ public class ArenaMasterService{
             }
         }, 5 * 1000);
     }
-
+ 
     public void teleportOut(Player player1){
         setRound(player1, 0);
         player1.setInPkMode(false);
@@ -634,22 +634,22 @@ public class ArenaMasterService{
         removePlayerFromFastList(player1);
         LeavingPlayer(player1);
     }
-
+ 
     protected WorldMapInstance createNewInstance(){
         instance = InstanceService.getNextAvailableInstance(OneVsOneStruct.worldid[0]);
         return instance;
     }
-
+ 
     protected WorldMapInstance createNewInstance2(){
         instance = InstanceService.getNextAvailableInstance(OneVsOneStruct.worldid[1]);
         return instance;
     }
-
+ 
     protected WorldMapInstance createNewInstance3(){
         instance = InstanceService.getNextAvailableInstance(OneVsOneStruct.worldid[2]);
         return instance;
     }
-
+ 
     private void getReady(Player p1, Player p2){ // add removecd without xform skills
         // setting player 1 up
         p1.getController().cancelCurrentSkill();
@@ -661,7 +661,7 @@ public class ArenaMasterService{
         if (EventSystem.ENABLE_REMOVECD){
             resetSkills(p1);
         }
-
+ 
         // setting player 2 up
         p2.getController().cancelCurrentSkill();
         p2.setInPkMode(true);
@@ -673,15 +673,15 @@ public class ArenaMasterService{
             resetSkills(p2);
         }
     }
-
+ 
     private void resetSkills(Player player1){
         List<Integer> delayIds = new ArrayList<Integer>();
         if (player1.getSkillCoolDowns() != null) {
             long currentTime = System.currentTimeMillis();
             for (Map.Entry<Integer, Long> en : player1.getSkillCoolDowns().entrySet()) {
-
+ 
                 delayIds.add(en.getKey());
-
+ 
                 if (!EventSystem.TOUCH_XFORM_SKILL){
                     if(delayIds.contains(11885) || delayIds.contains(11886) || delayIds.contains(11887) || delayIds.contains(11888) || delayIds.contains(11889) ||
                             delayIds.contains(11890) || delayIds.contains(11891) || delayIds.contains(11892) || delayIds.contains(11893) || delayIds.contains(11894)){
@@ -689,22 +689,22 @@ public class ArenaMasterService{
                     }
                 }
             }
-
+ 
             for (Integer delayId : delayIds) {
                 player1.setSkillCoolDown(delayId, currentTime);
             }
-
+ 
             delayIds.clear();
             PacketSendUtility.sendPacket(player1, new SM_SKILL_COOLDOWN(player1.getSkillCoolDowns()));
         }
     }
-
+ 
     private void LeavingPlayer(Player p1){
         // setting player 1 up
         p1.getController().cancelCurrentSkill();
         p1.getLifeStats().setCurrentHpPercent(100);
         p1.getLifeStats().setCurrentMpPercent(100);
     }
-
-
+ 
+ 
 }

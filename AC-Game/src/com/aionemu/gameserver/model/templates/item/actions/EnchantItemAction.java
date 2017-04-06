@@ -105,7 +105,7 @@ public class EnchantItemAction extends AbstractItemAction {
         // Current enchant level
         final int currentEnchant = targetItem.getEnchantLevel();
         final boolean isSuccess = isSuccess(player, parentItem, targetItem, supplementItem, targetWeapon);
-        player.getController().cancelUseItem();
+        //player.getController().cancelUseItem();
         PacketSendUtility.broadcastPacketAndReceive(player, new SM_ITEM_USAGE_ANIMATION(player.getObjectId(), parentItem.getObjectId(), parentItem.getItemTemplate().getTemplateId(), EnchantsConfig.ENCHANT_CAST_DELAY, 0, 0));
         player.getController().addTask(TaskId.ITEM_USE, ThreadPoolManager.getInstance().schedule(new Runnable() {
             @Override
@@ -121,7 +121,7 @@ public class EnchantItemAction extends AbstractItemAction {
                 }
 
                 PacketSendUtility.broadcastPacketAndReceive(player, new SM_ITEM_USAGE_ANIMATION(player.getObjectId(),
-                        parentItem.getObjectId(), parentItem.getItemTemplate().getTemplateId(), 0, isSuccess ? 1 : 2, 0));
+                        parentItem.getObjectId(), parentItem.getItemTemplate().getTemplateId(), 0, isSuccess ? 1 : 2, 384));
                 if (CustomConfig.ENABLE_ENCHANT_ANNOUNCE) {
                     if ((itemTemplate.getCategory() == ItemCategory.ENCHANTMENT) && targetItem.getEnchantLevel() == 15 && isSuccess) {
                         Iterator<Player> iter = World.getInstance().getPlayersIterator();

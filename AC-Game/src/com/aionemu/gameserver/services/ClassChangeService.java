@@ -202,13 +202,14 @@ public class ClassChangeService {
         }
     }
 
-    private static void completeQuest(Player player, int questId) {
-        QuestState qs = player.getQuestStateList().getQuestState(questId);
+   private static void completeQuest(Player player, int questId) {
+		QuestState qs = player.getQuestStateList().getQuestState(questId);
         if (qs == null) {
-            player.getQuestStateList().addQuest(questId, new QuestState(questId, QuestStatus.COMPLETE, 0, 0, null, 0, null));
+            player.getQuestStateList().addQuest(questId, new QuestState(questId, QuestStatus.COMPLETE, 0, 1, null, 0, null));
             PacketSendUtility.sendPacket(player, new SM_QUEST_ACTION(questId, QuestStatus.COMPLETE.value(), 0));
         } else {
-            qs.setStatus(QuestStatus.COMPLETE);
+			qs.setStatus(QuestStatus.COMPLETE);
+			qs.setCompleteCount(qs.getCompleteCount() + 1);
             PacketSendUtility.sendPacket(player, new SM_QUEST_ACTION(questId, qs.getStatus(), qs.getQuestVars()
                     .getQuestVars()));
         }

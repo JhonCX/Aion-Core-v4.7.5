@@ -153,23 +153,6 @@ public class AuthorizeAction
     }
     if (player.getAccessLevel() > 2) {
       PacketSendUtility.sendMessage(player, "Fail! Rnd: " + i + " Luck: 700");
-
-    public boolean isSuccess() 
-    {
-        return Rnd.get(0, 100) < calcTemperingRate();
-    }
-    
-    /*
-     * New Formula which makes accurate tolerance for FaileRate calculation.
-     */
-    private float calcTemperingRate() 
-    {
-    	float base = 5;
-    	float staticRate = 40;
-    	float failRate = Rnd.get(0, 2);
-    	float resultRate = RateConfig.TEMPERING_RATE > 10 ? 10 : RateConfig.TEMPERING_RATE;
-    	resultRate = (resultRate * base) - failRate;
-    	return (resultRate + staticRate);
     }
     return false;
   }
